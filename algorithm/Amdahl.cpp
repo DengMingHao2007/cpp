@@ -8,7 +8,9 @@ int main(){
     cin>>a;
     cout<<"K:";
     cin>>k;
-    s=1/((1-a)+a/k);
+    Tnew=Told*((1-a)+a/k);
+    s=Told/Tnew;
+    cout<<"Tnew:"<<Tnew<<endl;
     cout<<s;
     return 0;
 }
